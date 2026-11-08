@@ -1,0 +1,56 @@
+
+/* Configuração geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #202020;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Título */
+h1 {
+    color: #ffcc00;
+    margin-bottom: 30px;
+}
+
+/* Campo de pesquisa */
+input {
+    padding: 12px;
+    width: 220px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* Botão */
+button {
+    padding: 12px 20px;
+    background-color: #ffcc00;
+    color: #202020;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Efeito ao passar o mouse */
+button:hover {
+    background-color: #e6b800;
+}
+
+/* Área dos resultados */
+#resultado {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 400px;
+    background-color: #333333;
+    border-radius: 12px;
+}
+
+/* Imagem do Pokémon */
+#resultado img {
+    width: 180px;
+}
